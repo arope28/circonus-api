@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'circonusutil'
+cu = CirconusUtil.new
+puts "CID,ActiveState,Broker"
+cu.circonus.list_check.each do |b|
+  printf("%-20s %-20s %s\n",b['_cid'],b['_active'],b['_broker'])
+end
