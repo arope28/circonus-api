@@ -22,7 +22,7 @@ Docs
   https://circonus.com/docs/beacons/circonus_beacon_instructions.pdf
 
 # Broker user manual:
-  https://circonus.com/account/tbs/broker_user_manual
+  https://login.circonus.com/user/docs/Administration/Brokers
 
 # RPMs for broker:
   http://updates.circonus.com/circonus/x86_64/RPMS/
